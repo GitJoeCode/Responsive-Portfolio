@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+}
+
+#head{
+    display: inline-block;
+    width: 100%;
+    border-bottom-style: solid;
+    border-width: large;
+    border-color: #cccccc;
+}
+
+header{
+    width: 960px;
+    margin: auto;
+    background: white;
+}
+
+h1{
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    float: left;
+    clear: both;
+}
+
+#photo {
+    float: left;
+}
+
+#portContact {
+    color: #4aaaa5;
+    padding-bottom: 20px;
+    border-bottom-style: solid;
+    border-width: medium;
+    border-color: #cccccc;
+}
+.nav
+{
+    float: right;
+    list-style: none;
+    padding: 30px 0 30px 0;
+    color: #666666;
+}
+
+.nav li
+{
+    display: inline-block;
+    right: 0;
+    margin-left: 40px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    margin: auto;
+    background-image: url(oriental-tiles/oriental-tiles.png);
+}
+
+clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+main {
+    background-color: blue;
+    width: 700px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid white;
+} 
+
+footer {
+    background-color: #666666;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    outline-style: solid;
+    outline-color: #4aaaa5;
+    outline-width: 10px;
+    padding: 60px 0 0 0;
+    border: 1px soild white;
+    margin-top: 20px
+}
+
+#foot {
+    position: relative;
+    top: 300px;
+    width: 100%;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=longText], select {
+    width: 100%;
+    padding: 150px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    align-items: top;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}  
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#userInput {
+    clear: both;
+    position: relative;
+    top: 0;
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    width: 960px;
+    font-size: 18px;
+    margin: auto;
+}
+
+#myInput {
+    clear: both;
+    position: relative;
+    top: 0;
+    background-color: #f2f2f2;
+    length: 400px;
+    padding: 20px;
+    display: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    width: 960px;
+    font-size: 18px;
+    margin: auto;
+}
+
+.box{
+    position: relative;
+    display: inline-block; 
+    margin: 30px 30px 30px 0;
+}
+.box .label{
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    top: 70%; 
+    text-align: center;
+    width: 300px; 
+    background-color: #4aaaa5;
+    color: white;
+}
